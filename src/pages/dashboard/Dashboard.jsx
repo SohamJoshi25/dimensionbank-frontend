@@ -53,7 +53,7 @@ const Dashboard = () => {
         <div className='bg-[#24517E] h-[22%] text-white p-8 px-16'>
             <div className='flex justify-between'>
                 <span className='text-3xl font-mono '>Hi,{user.name}</span>
-                <span className='text-3xl font-mono '>Dimention Bank</span>
+                <span className='text-3xl font-mono '>Dimension Bank</span>
             </div>
             <div className='flex gap-x-10 mt-12 text-gray-300 w-full'>
                 <button className='hover:text-white hover:shadow-2xl' onClick={()=>{setOption(1)}} >Add Account</button>
